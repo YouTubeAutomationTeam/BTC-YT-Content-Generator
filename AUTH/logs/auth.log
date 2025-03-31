@@ -1,0 +1,143 @@
+2025-03-25 10:30:24,102 [INFO] 
+🔄 Authenticating: alxwdwrx
+2025-03-25 10:30:24,109 [INFO] 🔹 Opening browser for OAuth on port 8080: alxwdwrx
+2025-03-25 10:30:31,659 [INFO] "GET /?state=FjPT6UB1cWYvFfaCUW3tqNVN5rn306&code=4/0AQSTgQFDeveBlUGAawiA9ks6RLbxvdADxLnuVZYpqmxbb-e62Km0sXXRY71QqhV1gF7zsw&scope=https://www.googleapis.com/auth/youtube.upload%20https://www.googleapis.com/auth/youtube.force-ssl HTTP/1.1" 200 65
+2025-03-25 10:30:31,883 [INFO] 📦 Base64 backup saved: alxwdwrx_oauth_token.b64
+2025-03-25 10:30:31,883 [INFO] ✅ OAuth Authentication successful for: alxwdwrx
+2025-03-25 10:30:40,155 [INFO] 📦 Base64 backup saved: alxwdwrx_service_token.b64
+2025-03-25 10:30:40,156 [INFO] ✅ Service Account Auth successful for: alxwdwrx
+2025-03-25 10:30:42,243 [INFO] 
+🔄 Authenticating: alexbalmaseda
+2025-03-25 10:30:42,246 [INFO] 🔹 Opening browser for OAuth on port 8888: alexbalmaseda
+2025-03-25 10:30:46,202 [INFO] "GET /?state=gZKRKHogwXq4oaiW5WJwZlN5G266JT&code=4%2F0AQSTgQEEjp0PT7w7SpmVVyXeGp5hCigdEaL9EVvyBB5DH_b0okMamv_acn-8k93I0VzoIA&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fyoutube.upload+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fyoutube.force-ssl HTTP/1.1" 200 65
+2025-03-25 10:30:46,308 [INFO] 📦 Base64 backup saved: alexbalmaseda_oauth_token.b64
+2025-03-25 10:30:46,308 [INFO] ✅ OAuth Authentication successful for: alexbalmaseda
+2025-03-25 10:30:51,438 [INFO] 📦 Base64 backup saved: alexbalmaseda_service_token.b64
+2025-03-25 10:30:51,438 [INFO] ✅ Service Account Auth successful for: alexbalmaseda
+2025-03-25 10:30:54,754 [INFO] 
+🔄 Authenticating: btc
+2025-03-25 10:30:54,758 [INFO] 🔹 Opening browser for OAuth on port 7070: btc
+2025-03-25 10:31:01,361 [INFO] "GET /?state=QffevlWqxEgJBf6siiGWJ6fyrhORwh&code=4/0AQSTgQEFfEq3F0TYgaKuGnBtAdDdXwdC9_oCOUmKfeY_BRaO7NtNi1l6SF1ZtCLdGqF3yQ&scope=https://www.googleapis.com/auth/youtube.upload%20https://www.googleapis.com/auth/youtube.force-ssl HTTP/1.1" 200 65
+2025-03-25 10:31:01,512 [INFO] 📦 Base64 backup saved: btc_oauth_token.b64
+2025-03-25 10:31:01,512 [INFO] ✅ OAuth Authentication successful for: btc
+2025-03-25 10:31:07,715 [INFO] 📦 Base64 backup saved: btc_service_token.b64
+2025-03-25 10:31:07,715 [INFO] ✅ Service Account Auth successful for: btc
+2025-03-25 10:31:10,212 [INFO] 
+🔄 Authenticating: 3kavey
+2025-03-25 10:31:10,215 [INFO] 🔹 Opening browser for OAuth on port 9000: 3kavey
+2025-03-25 10:31:16,314 [INFO] "GET /?state=WtCpooGhSHWYZ8Z3pt2F4C08P0782w&code=4/0AQSTgQGW93L0mZfvi2H1mk7rvwEy2SSZF26wY1MTY6_gtOYJR_CPYOSk0ei5iFVF50JpCw&scope=https://www.googleapis.com/auth/youtube.force-ssl%20https://www.googleapis.com/auth/youtube.upload HTTP/1.1" 200 65
+2025-03-25 10:31:16,440 [INFO] 📦 Base64 backup saved: 3kavey_oauth_token.b64
+2025-03-25 10:31:16,440 [INFO] ✅ OAuth Authentication successful for: 3kavey
+2025-03-25 10:31:26,821 [INFO] 📦 Base64 backup saved: 3kavey_service_token.b64
+2025-03-25 10:31:26,821 [INFO] ✅ Service Account Auth successful for: 3kavey
+2025-03-25 10:31:31,395 [INFO] 
+🔄 Authenticating: 513mat
+2025-03-25 10:31:47,727 [INFO] 
+🔄 Authenticating: alxwdwrx
+2025-03-25 10:31:47,730 [INFO] ✅ Skipping OAuth for alxwdwrx: Token is still valid.
+2025-03-25 10:31:47,733 [INFO] 📦 Base64 backup saved: alxwdwrx_service_token.b64
+2025-03-25 10:31:47,733 [INFO] ✅ Service Account Auth successful for: alxwdwrx
+2025-03-25 10:31:52,181 [INFO] 
+🔄 Authenticating: alexbalmaseda
+2025-03-25 10:31:52,182 [INFO] ✅ Skipping OAuth for alexbalmaseda: Token is still valid.
+2025-03-25 10:31:52,185 [INFO] 📦 Base64 backup saved: alexbalmaseda_service_token.b64
+2025-03-25 10:31:52,185 [INFO] ✅ Service Account Auth successful for: alexbalmaseda
+2025-03-25 10:31:53,954 [INFO] 
+🔄 Authenticating: btc
+2025-03-25 10:31:53,955 [INFO] ✅ Skipping OAuth for btc: Token is still valid.
+2025-03-25 10:31:53,957 [INFO] 📦 Base64 backup saved: btc_service_token.b64
+2025-03-25 10:31:53,957 [INFO] ✅ Service Account Auth successful for: btc
+2025-03-25 10:31:55,804 [INFO] 
+🔄 Authenticating: 3kavey
+2025-03-25 10:31:55,804 [INFO] ✅ Skipping OAuth for 3kavey: Token is still valid.
+2025-03-25 10:31:55,808 [INFO] 📦 Base64 backup saved: 3kavey_service_token.b64
+2025-03-25 10:31:55,808 [INFO] ✅ Service Account Auth successful for: 3kavey
+2025-03-25 10:31:57,276 [INFO] 
+🔄 Authenticating: 513mat
+2025-03-25 10:31:57,279 [INFO] 🔹 Opening browser for OAuth on port 9000: 513mat
+2025-03-25 10:32:02,336 [INFO] "GET /?state=FjHqbRE9V3aFcsM9aMytHORfgPBALo&code=4%2F0AQSTgQHuqGDZA1B--NcatsiuSje3PQ2E0a5HjzwrmGYe5be9vz2bvJUVyqvguowpEkDnQw&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fyoutube.force-ssl+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fyoutube.upload HTTP/1.1" 200 65
+2025-03-25 10:32:02,459 [INFO] 📦 Base64 backup saved: 513mat_oauth_token.b64
+2025-03-25 10:32:02,459 [INFO] ✅ OAuth Authentication successful for: 513mat
+2025-03-25 10:32:08,808 [INFO] 📦 Base64 backup saved: 513mat_service_token.b64
+2025-03-25 10:32:08,808 [INFO] ✅ Service Account Auth successful for: 513mat
+2025-03-25 10:32:10,298 [INFO] 
+🔄 Authenticating: lakecarmel
+2025-03-25 10:32:10,302 [INFO] 🔹 Opening browser for OAuth on port 7070: lakecarmel
+2025-03-25 10:32:13,831 [INFO] "GET /?state=F9t9RKti4XG2HmhE5F7Bxxjczy4t04&code=4%2F0AQSTgQEt6T2uV9_9DK7AJxG1_SUw38c5Xe0HicwOaGEl09N0LRP-nU1FDcsTDjG0uYLO-w&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fyoutube.upload+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fyoutube.force-ssl HTTP/1.1" 200 65
+2025-03-25 10:32:13,935 [INFO] 📦 Base64 backup saved: lakecarmel_oauth_token.b64
+2025-03-25 10:32:13,935 [INFO] ✅ OAuth Authentication successful for: lakecarmel
+2025-03-25 10:32:20,073 [INFO] 📦 Base64 backup saved: lakecarmel_service_token.b64
+2025-03-25 10:32:20,073 [INFO] ✅ Service Account Auth successful for: lakecarmel
+2025-03-25 10:32:21,002 [INFO] 
+✅ Authentication summary: alxwdwrx, alexbalmaseda, btc, 3kavey, 513mat, lakecarmel
+2025-03-25 10:32:32,012 [INFO] 🚪 Exiting authentication.
+2025-03-25 11:02:33,312 [INFO] 
+🔁 Authenticating: alxwdwrx
+2025-03-25 11:02:38,014 [INFO] "GET /?state=sUVDsbhzTSBx6H4xDK88pUbLDv0t03&code=4%2F0AQSTgQHT_BgH1VdNqXEDEE4BkUFuw6xzR0-BH_xIs4PGie4KiRQR4R5BQUCZYmBzEOVSEA&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fyoutube.force-ssl+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fyoutube.upload HTTP/1.1" 200 65
+2025-03-25 11:02:38,209 [INFO] 📦 Base64 token written: B64_OAUTH_TOKEN_PICKLE_ALXWDWRX.txt
+2025-03-25 11:02:38,209 [INFO] ✅ OAuth authentication completed for: alxwdwrx
+2025-03-25 11:02:44,509 [INFO] 📦 Base64 token written: B64_SERVICE_TOKEN_PICKLE_ALXWDWRX.txt
+2025-03-25 11:02:44,509 [INFO] ✅ Service account authentication completed for: alxwdwrx
+2025-03-25 11:02:44,509 [INFO] 
+🔁 Authenticating: alexbalmaseda
+2025-03-25 11:02:50,666 [INFO] "GET /?state=0OIBrFz5IpyenLdYLqX5OKcaeayofb&code=4%2F0AQSTgQHGGj33Hsr6C2nPLmxCZg6Rp0OP-2c36u-UrZZnegz_Oz0bSTXQj4gFP8OLHU39SQ&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fyoutube.force-ssl+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fyoutube.upload HTTP/1.1" 200 65
+2025-03-25 11:02:50,779 [INFO] 📦 Base64 token written: B64_OAUTH_TOKEN_PICKLE_ALEXBALMASEDA.txt
+2025-03-25 11:02:50,779 [INFO] ✅ OAuth authentication completed for: alexbalmaseda
+2025-03-25 11:03:21,150 [INFO] 📦 Base64 token written: B64_SERVICE_TOKEN_PICKLE_ALEXBALMASEDA.txt
+2025-03-25 11:03:21,150 [INFO] ✅ Service account authentication completed for: alexbalmaseda
+2025-03-25 11:03:21,150 [INFO] 
+🔁 Authenticating: btc
+2025-03-25 11:03:26,997 [INFO] "GET /?state=0KvMx6SuI8w84CjosztCNDcAoKX65G&code=4/0AQSTgQGyxQlx5Qeh-bSr8guoRhqeBxWxD5MKe5Z_ve6yO_ooqapIB1OA2u_xogMnSivizA&scope=https://www.googleapis.com/auth/youtube.upload%20https://www.googleapis.com/auth/youtube.force-ssl HTTP/1.1" 200 65
+2025-03-25 11:03:27,168 [INFO] 📦 Base64 token written: B64_OAUTH_TOKEN_PICKLE_BTC.txt
+2025-03-25 11:03:27,168 [INFO] ✅ OAuth authentication completed for: btc
+2025-03-25 11:03:40,487 [INFO] 📦 Base64 token written: B64_SERVICE_TOKEN_PICKLE_BTC.txt
+2025-03-25 11:03:40,487 [INFO] ✅ Service account authentication completed for: btc
+2025-03-25 11:03:40,487 [INFO] 
+🔁 Authenticating: 3kavey
+2025-03-25 11:03:45,554 [INFO] "GET /?state=aRts5XmnuzqvNisT2gCEljHULzbKns&code=4%2F0AQSTgQHxm-m7VbsOy0tBX-c6UMCk0WFVZEbXy5xTsLJeBe5PiXNyp5lafRsZzb62Kb8tAQ&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fyoutube.force-ssl+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fyoutube.upload HTTP/1.1" 200 65
+2025-03-25 11:03:45,675 [INFO] 📦 Base64 token written: B64_OAUTH_TOKEN_PICKLE_3KAVEY.txt
+2025-03-25 11:03:45,675 [INFO] ✅ OAuth authentication completed for: 3kavey
+2025-03-25 11:03:53,903 [INFO] 📦 Base64 token written: B64_SERVICE_TOKEN_PICKLE_3KAVEY.txt
+2025-03-25 11:03:53,903 [INFO] ✅ Service account authentication completed for: 3kavey
+2025-03-25 11:03:53,903 [INFO] 
+🔁 Authenticating: 513mat
+2025-03-25 11:04:02,643 [INFO] 
+🔁 Authenticating: alxwdwrx
+2025-03-25 11:04:02,644 [INFO] ✅ OAuth token for 'alxwdwrx' is still valid.
+2025-03-25 11:04:02,647 [INFO] 📦 Base64 token written: B64_SERVICE_TOKEN_PICKLE_ALXWDWRX.txt
+2025-03-25 11:04:02,648 [INFO] ✅ Service account authentication completed for: alxwdwrx
+2025-03-25 11:04:02,648 [INFO] 
+🔁 Authenticating: alexbalmaseda
+2025-03-25 11:04:02,649 [INFO] ✅ OAuth token for 'alexbalmaseda' is still valid.
+2025-03-25 11:04:02,652 [INFO] 📦 Base64 token written: B64_SERVICE_TOKEN_PICKLE_ALEXBALMASEDA.txt
+2025-03-25 11:04:02,652 [INFO] ✅ Service account authentication completed for: alexbalmaseda
+2025-03-25 11:04:02,653 [INFO] 
+🔁 Authenticating: btc
+2025-03-25 11:04:02,653 [INFO] ✅ OAuth token for 'btc' is still valid.
+2025-03-25 11:04:02,655 [INFO] 📦 Base64 token written: B64_SERVICE_TOKEN_PICKLE_BTC.txt
+2025-03-25 11:04:02,655 [INFO] ✅ Service account authentication completed for: btc
+2025-03-25 11:04:02,655 [INFO] 
+🔁 Authenticating: 3kavey
+2025-03-25 11:04:02,655 [INFO] ✅ OAuth token for '3kavey' is still valid.
+2025-03-25 11:04:02,657 [INFO] 📦 Base64 token written: B64_SERVICE_TOKEN_PICKLE_3KAVEY.txt
+2025-03-25 11:04:02,657 [INFO] ✅ Service account authentication completed for: 3kavey
+2025-03-25 11:04:02,657 [INFO] 
+🔁 Authenticating: 513mat
+2025-03-25 11:04:09,592 [INFO] "GET /?state=wBCHhAfORiwnl3QwgUQsE3ypDPFn0b&code=4/0AQSTgQFpwRhdtnA7TGCt4ERsfY3_t8yW_f3aEwUJ2RbqpuvtOkkJhK0VnufRf0ccKuU-tw&scope=https://www.googleapis.com/auth/youtube.force-ssl%20https://www.googleapis.com/auth/youtube.upload HTTP/1.1" 200 65
+2025-03-25 11:04:09,778 [INFO] 📦 Base64 token written: B64_OAUTH_TOKEN_PICKLE_513MAT.txt
+2025-03-25 11:04:09,778 [INFO] ✅ OAuth authentication completed for: 513mat
+2025-03-25 11:04:17,503 [INFO] 📦 Base64 token written: B64_SERVICE_TOKEN_PICKLE_513MAT.txt
+2025-03-25 11:04:17,503 [INFO] ✅ Service account authentication completed for: 513mat
+2025-03-25 11:04:17,503 [INFO] 
+🔁 Authenticating: lakecarmel
+2025-03-25 11:04:21,151 [INFO] "GET /?state=nsU0HBazkCqXgbdrtj2dTMdL3toS5f&code=4%2F0AQSTgQF9gu5XF69xdxlAZnasEXh0Z0vxvbqZ4c0ZAK26rDPxYLoSyzGmPMVOvnGK66byJw&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fyoutube.force-ssl+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fyoutube.upload HTTP/1.1" 200 65
+2025-03-25 11:04:21,265 [INFO] 📦 Base64 token written: B64_OAUTH_TOKEN_PICKLE_LAKECARMEL.txt
+2025-03-25 11:04:21,265 [INFO] ✅ OAuth authentication completed for: lakecarmel
+2025-03-25 11:04:28,030 [INFO] 📦 Base64 token written: B64_SERVICE_TOKEN_PICKLE_LAKECARMEL.txt
+2025-03-25 11:04:28,031 [INFO] ✅ Service account authentication completed for: lakecarmel
+2025-03-25 11:04:32,619 [INFO] 👋 Exiting authentication tool.
+2025-03-29 15:55:27,256 [INFO] ✅ GDrive auth packed and base64 saved to /Users/alexbalmaseda/Library/CloudStorage/OneDrive-Personal/GitHub/YouTubeAutomation/AUTH/tokens/B64_GDRIVE_AUTH.txt
+2025-03-29 16:11:07,345 [INFO] ✅ GDrive auth packed and base64 saved to /Users/alexbalmaseda/Library/CloudStorage/OneDrive-Personal/GitHub/YouTubeAutomation/AUTH/tokens/B64_GDRIVE_AUTH.txt
+2025-03-29 16:11:11,342 [INFO] 👋 Exiting authentication tool.
+2025-03-29 16:11:30,171 [INFO] ✅ GDrive auth packed and base64 saved to /Users/alexbalmaseda/Library/CloudStorage/OneDrive-Personal/GitHub/YouTubeAutomation/AUTH/tokens/B64_GDRIVE_AUTH_TOKEN_ALEXBALMASEDA.txt
+2025-03-29 16:16:14,118 [INFO] 👋 Exiting authentication tool.

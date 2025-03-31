@@ -1,0 +1,8 @@
+AUTH/credentials/
+AUTH/tokens/
+*.pickle
+AUTH/credentials/
+AUTH/tokens/
+*.pickle
+youtubeautomation/lib/python3.12/site-packages/torch/lib/libtorch_cpu.dylib
+youtubeautomation/lib/python3.12/site-packages/torch/lib/libtorch_cpu.dylib

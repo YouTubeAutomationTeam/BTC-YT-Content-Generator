@@ -1,0 +1,80 @@
+name: YouTube Automation Workflow
+
+on:
+  schedule:
+    - cron: '0 12 * * *'  # Every day at 12 PM UTC
+  workflow_dispatch:
+    inputs:
+      manual_category:
+        description: 'Run automation for a single category manually (optional)'
+        required: false
+        default: ''
+
+jobs:
+  youtube-automation:
+    runs-on: macos-latest
+
+    steps:
+      - name: ⬇️ Checkout repository
+        uses: actions/checkout@v3
+
+      - name: 🐍 Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.12'
+
+      - name: 📦 Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: 🔐 Restore GDrive Auth Token
+        run: |
+          echo "$B64_GDRIVE_AUTH_PICKLE_ALEXBALMASEDA" | base64 --decode > gdrive_auth.tar.gz
+          mkdir -p ~/.config
+          tar -xzf gdrive_auth.tar.gz -C ~/.config
+          echo "✅ GDrive auth restored to ~/.config/gdrive3"
+        env:
+          B64_GDRIVE_AUTH_PICKLE_ALEXBALMASEDA: ${{ secrets.B64_GDRIVE_AUTH_PICKLE_ALEXBALMASEDA }}
+
+      - name: ⚙️ Create log and temp dirs if needed
+        run: |
+          mkdir -p logs
+          mkdir -p temp_category_folders
+
+      - name: ✅ Load environment variables
+        run: |
+          echo "GPT4ALL_ENABLED=true" >> $GITHUB_ENV
+
+      # This step installs the correct gdrive binary depending on the runner OS (macOS or Linux)
+      - name: 🔧 Install gdrive v3 (Cross-platform)
+        run: |
+          OS_NAME=$(uname -s)
+          ARCH_NAME=$(uname -m)
+
+          echo "🧠 Detected OS: $OS_NAME | Arch: $ARCH_NAME"
+
+          # Set default binary (Linux x86_64)
+          GDRIVE_URL="https://github.com/glotlabs/gdrive/releases/download/3.9.1/gdrive_linux-x64.tar.gz"
+
+          if [[ "$OS_NAME" == "Darwin" ]]; then
+            GDRIVE_URL="https://github.com/glotlabs/gdrive/releases/download/3.9.1/gdrive_macos-x64.tar.gz"
+          fi
+
+          echo "⬇️ Downloading from $GDRIVE_URL"
+          curl -fL "$GDRIVE_URL" -o gdrive.tar.gz
+
+          echo "🧪 Extracting binary..."
+          mkdir gdrive_extract && tar -xzf gdrive.tar.gz -C gdrive_extract
+          chmod +x gdrive_extract/gdrive
+          sudo mv gdrive_extract/gdrive /usr/local/bin/gdrive
+             
+      - name: 🚀 Run YouTube Automation
+        run: |
+          export PYTHONPATH="${{ github.workspace }}/scripts:$PYTHONPATH"
+          if [[ "${{ github.event.inputs.manual_category }}" != "" ]]; then
+            echo "🔧 Manual override for category: ${{ github.event.inputs.manual_category }}"
+            python scripts/upload_all_for_category.py --category "${{ github.event.inputs.manual_category }}"
+          else
+            python scripts/main.py
+          fi

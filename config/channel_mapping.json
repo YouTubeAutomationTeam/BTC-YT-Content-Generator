@@ -1,0 +1,30 @@
+{
+    "CATEGORY_CHANNEL_MAP": {
+        "Awesome People": "cbs",
+        "Fails": "cbs",
+        "Cute Pets": "cbs",
+        "Bad Drivers": "cbs",
+        "Best Tool Reviews": "alxwdwrx",
+        "Best Projects of the Week": "alxwdwrx",
+        "Addon Reviews": "mythbras"
+    },
+    "CHANNEL_ACCOUNT_MAP": {
+        "cbs": "513mat",
+        "alxwdwrx": "alxwdwrx",
+        "mythbras": "mythbras"
+    },
+    "CHANNEL_ID_MAP": {
+        "cbs": "UCZkSRvnnTgF3W7g6d7DpZCQ",
+        "alxwdwrx": "UC3qHwzStts7w91DqRflhzYg",
+        "mythbras": "UC6XYZabcDEF999aaa888zzz"
+    },
+    "ACCOUNT_MAP": {
+        "513mat": "513MAT",
+        "alxwdwrx": "ALXWDWRX",
+        "mythbras": "MYTHBRAS",
+        "alexbalmaseda": "ALEXBALMASEDA",
+        "lakecarmel": "LAKECARMEL",
+        "3kavey": "3KAVEY",
+        "btc": "BTC"
+    }
+}

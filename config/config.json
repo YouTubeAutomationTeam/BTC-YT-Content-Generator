@@ -1,0 +1,98 @@
+{
+    "api_keys": {
+        "youtube": {
+            "cbs": "{{YOUTUBE_API_KEY_CBS}}",
+            "alxwdwrx": "{{YOUTUBE_API_KEY_ALXWDWRX}}",
+            "mythbras": "{{YOUTUBE_API_KEY_MYTHBRAS}}",
+            "alexbalmaseda": "{{YOUTUBE_API_KEY_ALEXBALMASEDA}}",
+            "btc": "{{YOUTUBE_API_KEY_BTC}}",
+            "3kavey": "{{YOUTUBE_API_KEY_3KAVEY}}",
+            "513mat": "{{YOUTUBE_API_KEY_513MAT}}",
+            "lakecarmel": "{{YOUTUBE_API_KEY_LAKECARMEL}}"
+        },
+        "openai": "{{OPENAI_API_KEY}}",
+        "huggingface": "{{HUGGINGFACE_API_KEY}}",
+        "google_custom_search": "{{GOOGLE_CUSTOM_SEARCH_API_KEY}}"
+    },
+    "oauth_credentials": {
+        "alxwdwrx": "{{YOUTUBE_OAUTH_JSON_ALXWDWRX}}",
+        "alexbalmaseda": "{{YOUTUBE_OAUTH_JSON_ALEXBALMASEDA}}",
+        "btc": "{{YOUTUBE_OAUTH_JSON_BTC}}",
+        "3kavey": "{{YOUTUBE_OAUTH_JSON_3KAVEY}}",
+        "513mat": "{{YOUTUBE_OAUTH_JSON_513MAT}}",
+        "lakecarmel": "{{YOUTUBE_OAUTH_JSON_LAKECARMEL}}"
+    },
+    "category_to_channel": {
+        "Awesome People": "cbs",
+        "Fails": "cbs",
+        "Cute Pets": "cbs",
+        "Bad Drivers": "cbs",
+        "Best Tool Reviews": "alxwdwrx",
+        "Best Projects of the Week": "alxwdwrx",
+        "Addon Reviews": "mythbras"
+    },
+    "channel_to_account": {
+        "cbs": "alxwdwrx",
+        "alxwdwrx": "alxwdwrx",
+        "mythbras": "alxwdwrx"
+    },
+    "downloading_accounts": [
+        "alexbalmaseda",
+        "btc",
+        "3kavey",
+        "513mat",
+        "lakecarmel",
+        "alxwdwrx"
+    ],
+    "channel_to_id": {
+        "cbs": "UCfANVrVt_egroV8XImobMmQ",
+        "alxwdwrx": "UClece0Mfp3kYbSCJBb-2rFw",
+        "mythbras": "UCjDBfvAcZi-8JGtSrViKWYw"
+    },
+    "search_queries": {
+        "Awesome People": [
+            "incredible stunts",
+            "amazing people doing amazing things",
+            "world records stunts"
+        ],
+        "Fails": [
+            "funny fails compilation",
+            "epic fails 2024",
+            "fail army",
+            "ultimate fails"
+        ],
+        "Cute Pets": [
+            "adorable puppies",
+            "funny cat videos",
+            "baby animals playing",
+            "pets doing tricks"
+        ],
+        "Bad Drivers": [
+            "road rage compilation",
+            "worst drivers caught on dashcam",
+            "reckless driving fails"
+        ],
+        "Best Tool Reviews": [
+            "latest power tool reviews",
+            "best tool for woodworking",
+            "must-have tools 2024"
+        ],
+        "Best Projects of the Week": [
+            "DIY home improvement",
+            "top engineering projects",
+            "best DIY projects"
+        ],
+        "Addon Reviews": [
+            "game mod reviews",
+            "best gaming addons",
+            "top mods for games"
+        ]
+    },
+    "local_ai": {
+        "use_gpt4all": true,
+        "gpt4all_model_path": "{{GPT4ALL_MODEL_PATH}}"
+    },
+    "ffmpeg": {
+        "path": "{{FFMPEG_PATH}}"
+    }
+}

@@ -1,0 +1,19 @@
+import os
+import json
+
+try:
+    if os.path.exists("config/config.json"):
+        with open("config/config.json",
+"r") as f:
+            config = json.load(f)
+        API_KEYS = config.get("api_keys",
+[])
+    else:
+        API_KEYS = []
+        print("Config file not found, using empty API keys list")
+except json.JSONDecodeError:
+    API_KEYS = []
+    print("Invalid JSON in config file, using empty API keys list")
+except Exception as e:
+    API_KEYS = []
+    print(f"Error loading config: {e}")

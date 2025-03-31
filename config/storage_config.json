@@ -1,0 +1,13 @@
+{
+    "provider": "gdrive",
+    "gdrive": {
+        "root_folder_id": "1-13r0yuPdQRCGKXoVWl9-QEhRlu4gLIs",
+        "clip_folder": "clips",
+        "full_videos_folder": "full_videos",
+        "metadata_folder": "metadata",
+        "thumbnails_folder": "thumbnails",
+        "compiled_videos_folder": "compiled_videos",
+        "processed_videos_folder": "processed_videos",
+        "watermarks_folder": "watermarks"
+    }
+}
