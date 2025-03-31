@@ -50,8 +50,8 @@ YouTubeAutomation/
 ### 🛠️ Setup
 
 ```bash
-git clone https://github.com/YouTubeAutomationTeam/yt-automation-core.git
-cd yt-automation-core
+git clone https://github.com/YouTubeAutomationTeam/btc-yt-content-generator.git
+cd btc-yt-content-generator-core
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
@@ -105,35 +105,5 @@ See our [SECURITY.md](SECURITY.md) for guidelines on reporting vulnerabilities o
 
 Developed and maintained by **Alex Balmaseda** and the team at  
 **BTC Digital Media** — a division of Business Transformation Consulting LLC.
-
-```
-
----
-
-### ✅ `LICENSE`
-
-I already rewrote this for you to include proper open-source attributions. Just copy that version into the new repo.
-
----
-
-### ✅ `SECURITY.md`
-```markdown
-# 🛡️ Security Policy
-
-## Supported Versions
-
-| Version | Status     |
-|---------|------------|
-| 1.0.x   | ✅ Supported |
-| <1.0    | ❌ Not maintained |
-
-## Reporting Vulnerabilities
-
-If you find a security issue or vulnerability, please contact us immediately:
-
-- Email: **security@btcdigitalmedia.com**
-
-Please do not open public issues for sensitive bugs.
-```
 
 ---
