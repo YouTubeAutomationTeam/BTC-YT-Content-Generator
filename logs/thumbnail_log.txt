@@ -1,0 +1,2 @@
+2025-03-31 18:29:12,343 - 🚀 Uploading all assets for category: Fails
+2025-03-31 18:29:12,346 - ⚠️ Thumbnail generation/upload failed for Fails: cannot import name 'create_thumbnail' from 'scripts.thumbnail_generator' (/Users/alexbalmaseda/Library/CloudStorage/OneDrive-Personal/GitHub/BTC-YT-Content-Generator/scripts/thumbnail_generator.py)
