@@ -8,7 +8,6 @@
 ├── AUTH
 │   ├── .gitattributes
 │   ├── .gitignore
-│   ├── auth_log.txt
 │   ├── credentials
 │   │   ├── GDRIVE_OAUTH_JSON_ALEXBALMASEDA.json
 │   │   ├── YOUTUBE_OAUTH_JSON_3KAVEY.json
@@ -24,7 +23,6 @@
 │   │   ├── YOUTUBE_SERVICE_JSON_BTC.json
 │   │   └── YOUTUBE_SERVICE_JSON_LAKECARMEL.json
 │   ├── logs
-│   │   └── auth_log.txt
 │   ├── manual_auth.py
 │   └── tokens
 │       ├── B64_GDRIVE_AUTH_TOKEN_ALEXBALMASEDA.txt
@@ -67,6 +65,8 @@
 │   ├── schedule.json
 │   ├── storage_config.json
 │   └── used_videos.json
+├── metadata
+│   └── .gitkeep
 ├── requirements.txt
 ├── scripts
 │   ├── .DS_Store
@@ -83,9 +83,7 @@
 │   ├── generate_metadata.py
 │   ├── generate_watermark.py
 │   ├── logging_manager.py
-│   ├── main-MacBook Pro (2).txt
 │   ├── main.py
-│   ├── main.txt
 │   ├── organize_folders.py
 │   ├── schedule_manager.py
 │   ├── select_account.py
@@ -103,4 +101,4 @@
 ├── structure.txt
 └── workflow_manager.py
 
-10 directories, 94 files
+11 directories, 91 files
