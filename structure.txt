@@ -1,0 +1,106 @@
+.
+├── .DS_Store
+├── .env
+├── .github
+│   └── workflows
+│       └── main.yml
+├── .gitignore
+├── AUTH
+│   ├── .gitattributes
+│   ├── .gitignore
+│   ├── auth_log.txt
+│   ├── credentials
+│   │   ├── GDRIVE_OAUTH_JSON_ALEXBALMASEDA.json
+│   │   ├── YOUTUBE_OAUTH_JSON_3KAVEY.json
+│   │   ├── YOUTUBE_OAUTH_JSON_513MAT.json
+│   │   ├── YOUTUBE_OAUTH_JSON_ALEXBALMASEDA.json
+│   │   ├── YOUTUBE_OAUTH_JSON_ALXWDWRX.json
+│   │   ├── YOUTUBE_OAUTH_JSON_BTC.json
+│   │   ├── YOUTUBE_OAUTH_JSON_LAKECARMEL.json
+│   │   ├── YOUTUBE_SERVICE_JSON_3KAVEY.json
+│   │   ├── YOUTUBE_SERVICE_JSON_513MAT.json
+│   │   ├── YOUTUBE_SERVICE_JSON_ALEXBALMASEDA.json
+│   │   ├── YOUTUBE_SERVICE_JSON_ALXWDWRX.json
+│   │   ├── YOUTUBE_SERVICE_JSON_BTC.json
+│   │   └── YOUTUBE_SERVICE_JSON_LAKECARMEL.json
+│   ├── logs
+│   │   └── auth_log.txt
+│   ├── manual_auth.py
+│   └── tokens
+│       ├── B64_GDRIVE_AUTH_TOKEN_ALEXBALMASEDA.txt
+│       ├── B64_OAUTH_TOKEN_PICKLE_3KAVEY.txt
+│       ├── B64_OAUTH_TOKEN_PICKLE_513MAT.txt
+│       ├── B64_OAUTH_TOKEN_PICKLE_ALEXBALMASEDA.txt
+│       ├── B64_OAUTH_TOKEN_PICKLE_ALXWDWRX.txt
+│       ├── B64_OAUTH_TOKEN_PICKLE_BTC.txt
+│       ├── B64_OAUTH_TOKEN_PICKLE_LAKECARMEL.txt
+│       ├── B64_SERVICE_TOKEN_PICKLE_3KAVEY.txt
+│       ├── B64_SERVICE_TOKEN_PICKLE_513MAT.txt
+│       ├── B64_SERVICE_TOKEN_PICKLE_ALEXBALMASEDA.txt
+│       ├── B64_SERVICE_TOKEN_PICKLE_ALXWDWRX.txt
+│       ├── B64_SERVICE_TOKEN_PICKLE_BTC.txt
+│       ├── B64_SERVICE_TOKEN_PICKLE_LAKECARMEL.txt
+│       ├── gdrive_auth_token_alexbalmaseda.tar.gz
+│       ├── oauth_token_3kavey.pickle
+│       ├── oauth_token_513mat.pickle
+│       ├── oauth_token_alexbalmaseda.pickle
+│       ├── oauth_token_alxwdwrx.pickle
+│       ├── oauth_token_btc.pickle
+│       ├── oauth_token_lakecarmel.pickle
+│       ├── project_structure.txt
+│       ├── service_token_3kavey.pickle
+│       ├── service_token_513mat.pickle
+│       ├── service_token_alexbalmaseda.pickle
+│       ├── service_token_alxwdwrx.pickle
+│       ├── service_token_btc.pickle
+│       └── service_token_lakecarmel.pickle
+├── CODE_OF_CONDUCT.md
+├── CONTRIBUTING.md
+├── LICENSE.md
+├── README.md
+├── SECURITY.md
+├── config
+│   ├── api_keys.json
+│   ├── channel_mapping.json
+│   ├── config.json
+│   ├── processed_videos.json
+│   ├── schedule.json
+│   ├── storage_config.json
+│   └── used_videos.json
+├── requirements.txt
+├── scripts
+│   ├── .DS_Store
+│   ├── .editorconfig
+│   ├── __init__.py
+│   ├── ai_helpers.py
+│   ├── check_secrets.py
+│   ├── cleanup_workspace.py
+│   ├── config_manager.py
+│   ├── docs
+│   │   └── module_graph.md
+│   ├── drive_download.py
+│   ├── drive_sync.py
+│   ├── generate_metadata.py
+│   ├── generate_watermark.py
+│   ├── logging_manager.py
+│   ├── main-MacBook Pro (2).txt
+│   ├── main.py
+│   ├── main.txt
+│   ├── organize_folders.py
+│   ├── schedule_manager.py
+│   ├── select_account.py
+│   ├── thumbnail_generator.py
+│   ├── upload_all_for_category.py
+│   ├── upload_compiled_videos.py
+│   ├── upload_metadata.py
+│   ├── upload_thumbnails.py
+│   ├── upload_watermarks.py
+│   ├── video_processor.py
+│   ├── youtube_auth.py
+│   ├── youtube_scraper.py
+│   ├── youtube_uploader.py
+│   └── zip_project.sh
+├── structure.txt
+└── workflow_manager.py
+
+10 directories, 94 files
