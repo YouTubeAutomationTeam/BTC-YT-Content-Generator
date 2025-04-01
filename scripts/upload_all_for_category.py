@@ -56,10 +56,10 @@ def process_category(category_name):
 
     # === Thumbnail Generation and Upload ===
     try:
-        from scripts.thumbnail_generator import create_thumbnail
+        from scripts.thumbnail_generator import generate_thumbnail
         from scripts.upload_thumbnails import upload_thumbnail_to_drive
 
-        thumbnail_path = create_thumbnail(category_name, seed_keywords=["highlight", "viral", "clip"])
+        thumbnail_path = generate_thumbnail(category_name, seed_keywords=["highlight", "viral", "clip"])
         upload_thumbnail_to_drive(thumbnail_path, category_name)
         logging.info(f"🖼️ Thumbnail generated and uploaded for {category_name}")
     except Exception as e:
